@@ -7,9 +7,10 @@ import { addMinutes, isAfter } from 'date-fns';
 import { getCurrentLocale } from "@/lib/getCurrentLocale";
 import getTrans from "@/lib/translations";
 import { Languages } from "@/constants";
+import { authOptions } from "@/server/auth";
 
 export default async function MyBooking() {
-  const session = await getServerSession();
+ const session = await getServerSession(authOptions);
   const appointments = await getAppointments(session?.user.id);
      const locale = await getCurrentLocale()
      const translations = await getTrans(locale)
