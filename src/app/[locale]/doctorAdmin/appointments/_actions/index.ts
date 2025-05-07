@@ -15,7 +15,8 @@ export const updateStatusAppointmentCancel = async (appointmentId :  string) => 
        })
        revalidatePath(`/${locale}/${Routes.DOCTORADMIN}/appointments`)
        revalidatePath(`/${locale}/${Routes.REVERSATION}`)
-       revalidatePath(`/`)
+       revalidatePath(`/${locale}`)
+     revalidatePath(`/${locale}/admin`)
        revalidateTag("appointments")
        revalidateTag("appointmentsDoctors")
 }
@@ -31,7 +32,8 @@ export const updateStatusAppointmentConfirm = async (appointmentId :  string) =>
        revalidatePath(`/${locale}/${Routes.DOCTORADMIN}`)
        revalidatePath(`/${locale}/${Routes.REVERSATION}`)
        revalidateTag("appointments")
-       revalidatePath(`/`)
+         revalidatePath(`/${locale}`)
+     revalidatePath(`/${locale}/admin`)
        revalidatePath(`/${locale}`)
        revalidateTag("appointmentsDoctors")
 }
