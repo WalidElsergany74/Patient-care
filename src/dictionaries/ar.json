@@ -1,0 +1,334 @@
+{
+    "home": {
+      "shortTitle": " أفضل حلول الصحة ",
+      "title": "الصحة المثالية بضغطة زر",
+      "optimal": "الأمثل",
+  "Health": "الصحة",
+  "OneClickAway": "بنقرة واحدة",
+      "description": "اكتشف حلولاً صحية شاملة مصممة خصيصًا لتلبية احتياجاتك. نقدم لك أفضل خدمات الرعاية الصحية بكل سهولة، لمساعدتك على عيش حياة أكثر صحة وسعادة.",
+      "BookAppointment": "احجز موعدًا",
+      "stepSection": {
+        "title": "أسرع حل " ,
+        "description": "4 خطوات سهلة للحصول على الحل",
+        "easySteps" : "4 خطوات سهلة",
+        "getSolution" : "للحصول على الحل",
+        "cardOne": {
+          "title": "استعرض ملفات الأطباء",
+          "description": "تصفح الملفات الشخصية للأطباء، التخصصات، تقييمات المرضى، والخبرات لاختيار الطبيب المناسب لاحتياجاتك."
+        },
+        "cardTwo": {
+          "title": "احجز موعدك",
+          "description": "اختر الوقت المناسب من المواعيد المتاحة وقم بحجز موعدك بسهولة خلال دقائق."
+        },
+        "cardThree": {
+          "title": "احضر الاستشارة",
+          "description": "التقِ بطبيبك في الموعد المحدد لمناقشة حالتك الصحية والحصول على استشارة طبية محترفة."
+        },
+        "cardFour": {
+          "title": "ابدأ رحلة العلاج",
+          "description": "اتبع خطة العلاج المخصصة لك واستمر في جدولة مواعيد المتابعة حسب الحاجة."
+        }
+      },
+      "doctorSection": {
+        "title": " فريق الأطباء",
+        "description": "فريق الأطباء المتخصصين لدينا",
+        "our" : "لدينا",
+        "Specialist" : "المميز",
+        "DoctorTeam" : "فريق الاطباء",
+        "doctorCard": {
+          "name": "د. أحمد ناجي",
+          "bio": "sadasd",
+          "address": "15dasldkasldk",
+          "bookNow": "احجز الآن",
+          "viewAll": "عرض الكل",
+          "CURRENCY": "جنيه مصري"
+        }
+      }
+    },
+    
+        "footer": {
+          "description": "نحن ملتزمون بتقديم خدمات رعاية صحية استثنائية بأعلى معايير الجودة والرحمة. صحتك ورفاهيتك هما أولويتنا القصوى.",
+          "company": {
+            "title": "الشركة",
+            "aboutUs": "من نحن",
+            "terms": "الشروط والأحكام",
+            "PrivacyPolicy": "سياسة الخصوصية",
+            "ContactUs": "اتصل بنا",
+            "blog": {
+              "title": "المدونة",
+              "p1": "نصائح لقلب صحي",
+              "p2": "متى يجب زيارة الطبيب؟",
+              "p3": "فوائد الفحوصات الطبية الدورية",
+              "p4": "5 عادات يومية لصحة أفضل"
+            },
+            "contactTitle": "تواصل معنا"
+          }
+        },
+   
+        "doctorProfile": {
+          "form": {
+            "bioAr": {
+              "label": "السيرة الذاتية بالعربية",
+              "placeholder": "أدخل سيرتك الذاتية بالعربية"
+            },
+            "bioEn": {
+              "label": "السيرة الذاتية بالإنجليزية",
+              "placeholder": "أدخل سيرتك الذاتية بالإنجليزية"
+            },
+            "addressAr": {
+              "label": "العنوان بالعربية",
+              "placeholder": "أدخل عنوانك بالعربية"
+            },
+            "addressEn": {
+              "label": "العنوان بالإنجليزية",
+              "placeholder": "أدخل عنوانك بالإنجليزية"
+            },
+            "experience": {
+              "label": "سنوات الخبرة",
+              "placeholder": "أدخل سنوات خبرتك"
+            }
+          },
+        
+        "save": "حفظ",
+        "edit": "تعديل",
+        "close": "إغلاق",
+        "delete": "حذف",
+        "book": "جارى الحجز...",
+        "cancel": "إلغاء",
+        "submit": "تأكيد الحجز",
+        "noDoctorsFound": "لم يتم العثور على أطباء",
+        "noBookingFound": "لم يتم العثور على حجوزات",
+        "noSlots": "لا يوجد أوقات متاحة لهذا اليوم"
+      },
+      
+    "doctors": {
+      "title": "ابحث عن أفضل الأطباء عبر العناية بالمرضى",
+      "FindBest" : "ابحث عن",
+      "bestDoctors" : "أفضل الأطباء ",
+      "patientCare" : "لدينا",
+      "filter": "فلتر",
+    "filterCat": "فلتر حسب التخصص"
+    },
+    "singleDoctor": {
+      "years": "سنوات",
+      "About": "معلومات عن الدكتور",
+      "AppointmentFee": "سعر الكشف "
+    },
+    "reservation": {
+      "myBooking": "حجوزاتي",
+      "upcoming": "القادمة",
+      "expired": "المنتهية",
+      "Date": "التاريخ",
+      "Time": "الوقت",
+      "CancelAppointment": "إلغاء الحجز",
+      "noUpcoming" : "لا يوجد حجوزات قادمة",
+      "noExpired" : "لا يوجد حجوزات منتهية أو سابقة",
+  "areSure": "هل أنت متأكد من إلغاءالحجز  تمامًا ؟",
+  "thisAction": "لا يمكن التراجع عن هذا الإجراء. سيتم لإلغاء حجزك نهائيًا.",
+  "deleting": "جاري إلغاءالحجز...",
+      "slot": {
+        "bookWithDoctor": "احجز موعد مع",
+        "selectDay": "اختر اليوم",
+        "selectTime": "اختر الوقت"
+      }
+    },
+    "header": {
+      "Home": "الصفحة الرئيسية ",
+      "Myreservation": "حجوزاتى",
+      "Doctors": "الأطباء",
+      "Profile": "الملف الشخصي",
+      "doctorDashboard" : "لوحة تحكم الدكتور",
+      "Admin": "الإدارة",
+      "buttons": {
+        "login": "تسجيل الدخول",
+        "signUp": "إنشاء حساب",
+        "logout": "تسجيل الخروج"
+      }
+    },
+    "auth": {
+      "login": {
+        "title": "مرحبًا بعودتك",
+        "name": {
+          "label": "الاسم",
+          "placeholder": "أدخل اسمك"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل بريدك الإلكتروني"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة المرور"
+        },
+        "submit": "تسجيل الدخول",
+        "authPrompt": {
+          "message": "ليس لديك حساب؟ ",
+          "signUpLinkText": "سجّل الآن"
+        }
+      },
+      "register": {
+        "title": "إنشاء حساب",
+        "firstName": {
+          "label": "الاسم الأول",
+          "placeholder": "أدخل اسمك الأول"
+        },
+        "lastName": {
+          "label": "الاسم الأخير",
+          "placeholder": "أدخل اسمك الأخير"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل بريدك الإلكتروني"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة المرور"
+        },
+        "confirmPassword": {
+          "label": "تأكيد كلمة المرور",
+          "placeholder": "أعد إدخال كلمة المرور"
+        },
+        "submit": "إنشاء حساب",
+        "authPrompt": {
+          "message": "لديك حساب بالفعل؟ ",
+          "loginLinkText": "تسجيل الدخول"
+        }
+      }
+    },
+    "validation": {
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "NameRequired": "الاسم  مطلوب",
+  "lastNameRequired": "الاسم الأخير مطلوب",
+      "validEmail": "يجب أن يكون بريدًا إلكترونيًا صالحًا",
+      "passwordMinLength": "يجب ألا تقل كلمة المرور عن ٦ أحرف",
+      "passwordMaxLength": "يجب ألا تزيد كلمة المرور عن ٤٠ حرفًا",
+      "confirmPasswordRequired": "تأكيد كلمة المرور مطلوب",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين",
+      
+        "bioAr": "السيرة الذاتية باللغة العربية مطلوبة",
+        "bioEn": "السيرة الذاتية باللغة الانجليزية مطلوبة",
+        "addressAr": "العنوان باللغة العربية مطلوب",
+        "addressEn": "العنوان باللغة الانجليزية مطلوبة",
+        "experience": "الخبرة مطلوبة",
+      
+         "specialty" : "التخصص مطلوب"
+    },
+    "messages": {
+      "userNotFound": "المستخدم غير موجود",
+      "incorrectPassword": "كلمة المرور غير صحيحة",
+      "loginSuccessful": "تم تسجيل الدخول بنجاح",
+      "unexpectedError": "حدث خطأ غير متوقع",
+      "userAlreadyExists": "المستخدم موجود بالفعل",
+      "accountCreated": "تم إنشاء الحساب بنجاح",
+      "updateProfileSucess": "تم تحديث الملف الشخصي بنجاح",
+      "categoryAdded": "تمت إضافة الفئة بنجاح",
+      "updatecategorySucess": "تم تحديث الفئة بنجاح",
+      "deleteCategorySucess": "تم حذف الفئة بنجاح",
+      "productAdded": "تمت إضافة المنتج بنجاح",
+      "updateProductSucess": "تم تحديث المنتج بنجاح",
+      "deleteProductSucess": "تم حذف المنتج بنجاح",
+      "updateUserSucess": "تم تحديث المستخدم بنجاح",
+      "deleteUserSucess": "تم حذف المستخدم بنجاح",
+       "bookingSuccess": "تم الحجز بنجاح",
+  "bookingDelete": "تم إلغاء الحجز بنجاح",
+  "mustLogin": "يجب عليك تسجيل الدخول أولا حتي تحجز ميعاد",
+  "onlyPatient": "الحجز متاح فقط للمرضى",
+  "invalidDoctor": "بيانات الطبيب غير صالحة"
+    },
+    "profile": {
+      "title": "الملف الشخصي",
+      "form": {
+        "name": {
+          "label": "الاسم",
+          "placeholder": "أدخل اسمك"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل بريدك الإلكتروني"
+        },
+        "phone": {
+          "label": "رقم الهاتف",
+          "placeholder": "أدخل رقم هاتفك",
+          "validation": {
+            "required": "رقم الهاتف مطلوب",
+            "invalid": "يرجى إدخال رقم هاتف صالح"
+          }
+          
+          
+        },
+      
+        "bioAr": {
+          "label": "السيرة الذاتية بالعربية",
+          "placeholder": "أدخل سيرتك الذاتية بالعربية"
+        },
+        "bioEn": {
+          "label": "السيرة الذاتية بالإنجليزية",
+          "placeholder": "أدخل سيرتك الذاتية بالإنجليزية"
+        },
+        "addressAr": {
+          "label": "العنوان بالعربية",
+          "placeholder": "أدخل عنوانك بالعربية"
+        },
+        "addressEn": {
+          "label": "العنوان بالإنجليزية",
+          "placeholder": "أدخل عنوانك بالإنجليزية"
+        },
+        "experience": {
+          "label": "سنوات الخبرة",
+          "placeholder": "أدخل سنوات خبرتك"
+        }
+      },
+      "gender" : {
+        "label" : "النوع",
+        "placeholder" : "اختر النوع",
+        "options" : {
+          "male" : "ذكر",
+          "female" : "أنثي"
+        }
+      },
+      "age" : {
+        "label" : "السن",
+        "placeholder" : "اختر السن"
+      }
+    },
+    
+    
+      "doctorDashboard": {
+        "sidebar": {
+          "home": "الصفحة الرئيسية",
+          "appointments": "إدارة الحجوزات",
+          "profile": "الملف الشخصي",
+          "availability": "إعداد المواعيد"
+        },
+        "appointmentPage": {
+          "title": "إدارة الحجوزات",
+          "label": "ابحث باسم المريض",
+          "table": {
+            "patient": "المريض",
+            "fee": "سعر الكشف",
+            "actions": "الإجراءات",
+            "date": "التاريخ",
+            "time": "الوقت",
+            "status": "الحالة"
+          }
+        }
+      },
+    
+    
+    
+  
+    
+    
+   
+    "save": "حفظ",
+    "edit": "تعديل",
+    "close" : "إغلاق",
+    "delete": "حذف",
+    "book" : "جارى الحجز...",
+    "cancel": "إلغاء",
+    "submit": "تأكيد الحجز",
+    "noDoctorsFound": "لم يتم العثور على أطباء",
+    "noBookingFound": "لم يتم العثور على حجوزات",
+    "noSlots" : "لا يوجد أوقات متاحة لهذا اليوم"
+  }
+  

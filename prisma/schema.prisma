@@ -1,0 +1,112 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String   @id @default(uuid())
+  email    String   @unique
+  username String   @unique
+   username_en String?
+  username_ar String?
+  password String
+  role     UserRole @default(PATIENT)
+experience  Int?
+age        Int?
+gender     String?
+ bio_en    String?
+  bio_ar    String?
+  phone     String?
+  specialtyId String?  
+  price       Float?
+  image       String?
+  address_en     String?
+  address_ar     String?
+  availability   Boolean? @default(false)
+  createdAt DateTime @default(now())
+  availableDays WeekDay[]
+
+  
+  specialty Specialty? @relation(fields: [specialtyId], references: [id]) 
+  appointmentsAsDoctor Appointment[] @relation("DoctorAppointments")
+  appointmentsAsPatient Appointment[] @relation("PatientAppointments")
+
+  AvailableTimeSlot AvailableTimeSlot[]
+}
+
+
+enum WeekDay {
+  SUNDAY
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+}
+
+
+
+
+enum UserRole {
+  ADMIN
+  DOCTOR
+  PATIENT
+}
+model Specialty {
+  id        String         @id @default(cuid())
+  name      SpecialtyType  @unique
+  name_ar   String?
+
+  doctors   User[] 
+}
+
+
+
+
+
+enum SpecialtyType {
+  GENERAL 
+  GYNECOLOGIST
+  DERMATOLOGIST
+  PEDIATRICIAN
+  NEUROLOGIST
+  GASTROENTEROLOGIST
+}
+model AvailableTimeSlot {
+  id        String   @id @default(cuid())
+  doctorId  String   
+  day       WeekDay   
+  timeSlot  String    
+
+  doctor    User     @relation(fields: [doctorId], references: [id],onDelete: Cascade)
+
+  @@unique([doctorId, day, timeSlot]) 
+}
+
+model Appointment {
+  id              String            @id @default(cuid())
+  patientId       String
+  doctorId        String
+  appointmentTime DateTime
+  status          AppointmentStatus
+ 
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  patient User  @relation("PatientAppointments", fields: [patientId], references: [id], onDelete: Cascade)
+  doctor  User  @relation("DoctorAppointments", fields: [doctorId], references: [id] , onDelete: Cascade)
+
+  @@unique([doctorId, appointmentTime]) 
+}
+
+enum AppointmentStatus {
+  PENDING
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+}

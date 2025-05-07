@@ -1,0 +1,313 @@
+{
+    "home" : {
+        "shortTitle" : "The Best Health Solution",
+        "title" : "Optimal Health, One Click Away",
+        "optimal" : "Optimal",
+        "Health" : "Health",
+        "OneClickAway" : "One Click Away",
+        "description" : "Discover comprehensive health solutions tailored to your needs. We bring you the best in healthcare services with just a click, helping you live a healthier, happier life effortlessly.",
+        "BookAppointment" : "Book Appointment",
+        "stepSection" : {
+            "title" : "Fastest Solution",
+            "description" : "4 Easy Steps And Get Your Solution",
+            "easySteps" : "4 Easy Steps",
+             "getSolution" : "And Get Your Solution",
+            "cardOne" : {
+                "title" : "Browse Doctor Profiles",
+                "description" : "Explore detailed profiles, specialties, patient reviews, and experiences to find the doctor that fits your needs."
+            },
+            "cardTwo" : {
+                "title" : "Book Your Appointment",
+                "description" : "Choose a suitable time from the available slots and book your appointment easily within minutes."
+            },
+            "cardThree" : {
+                "title" : "Attend Your Consultation",
+                "description" : "Meet your doctor at the scheduled time to discuss your condition and receive professional medical advice."
+            },
+            "cardFour" : {
+                "title" : "Start Your Treatment Journey",
+                "description" : "Follow your personalized treatment plan and continue scheduling follow-up appointments when needed."
+            }
+        },
+        "doctorSection" : {
+            "title" : "Doctor Team",
+            "description" : "Our Specialist Doctor Team",
+            "our" : "Our",
+            "Specialist" : "Specialist",
+            "DoctorTeam" : "Doctor Team",
+            "doctorCard" : {
+                "name" : "Dr.Ahmed Nagi",
+                "bio" : "sadasd",
+                "address" : "15dasldkasldk",
+                "bookNow" : "Book Now",
+                "viewAll" : "View all",
+                "CURRENCY" : "EGP"
+            }
+        }
+    },
+    "footer" : {
+        "description" : "We are dedicated to delivering exceptional healthcare services with the highest standards of quality and compassion. Your health and well-being are our top priorities.",
+        "company" : {
+            "title" : "Company",
+            "aboutUs" : "About Us",
+            "terms" : "Terms & Conditions",
+            "PrivacyPolicy" : "Privacy Policy",
+           "ContactUs" : "Contact Us",
+           "blog" : {
+            "title" : "Blog",
+            "p1" : "Tips for a Healthy Heart",
+            "p2": "When to See a Doctor?",
+            "p3": "Benefits of Regular Health Check-ups",
+            "p4": "5 Daily Habits for Better Health"
+           },
+           "contactTitle" : "Connect With Us"
+        }
+    },
+    "doctorProfile" : {
+    "form" : {
+      "bioEn" : {
+        "label" : "Bio in English",
+        "placeholder" : "Enter Yor Bio in English"
+      },
+      "bioAr" : {
+        "label" : "Bio in Arabic",
+        "placeholder" : "Enter Yor Bio in Arabic"
+      },
+      "addressEn" : {
+        "label" : "Address in English",
+        "placeholder" : "Address in English"
+      },
+      "addressAn" : {
+        "label" : "Address in Arabic",
+        "placeholder" : "Address in Arabic"
+      },
+      "experience" : {
+        "label" : "Experience Years",
+        "placeholder" : "Enter Your Experience Years"
+      }
+    }
+  },
+    "doctors" : {
+        "title" : "Find the Best Doctors on Patient Care",
+        "FindBest" : "Find the",
+        "bestDoctors" : "Best Doctors",
+        "patientCare" : "on Patient Care",
+        "filter" : "Filter",
+        "filterCat" : "Filter by Specialty"
+    },
+    "singleDoctor" : {
+        "years" : "Years",
+        "About" : "About",
+        "AppointmentFee" : "Appointment Fee"
+    },
+    "reservation" : {
+        "myBooking" : "My Booking",
+         "upcoming" : "Upcoming",
+         "expired" : "Expired",
+         "Date" : "Date",
+         "Time" : "Time",
+         "CancelAppointment" : "Cancel Appointment",
+         "noUpcoming" : "No Upcoming appointments.",
+         "noExpired" : "No Expired appointments.",
+         "areSure" : "Are you absolutely sure ?",
+          "thisAction" : " This action cannot be undone. This will permanently delete your appointment.",
+           "deleting" : "Deleting Appointment",
+         "slot" : {
+            "bookWithDoctor" : "Book Appointment for",
+            "selectDay" : "Select a Day",
+            "selectTime" : "Select Time Slot"
+        }
+    },
+    "header" : {
+        "Home" : "Home",
+        "Myreservation" : "My Reservations",
+        "Doctors" : "Doctors",
+        "Profile" : "Profile",
+        "doctorDashboard" : "Doctor Dashboard",
+        "Admin" : "Admin",
+        "buttons" : {
+            "login" : "Login",
+            "signUp" : "Sign Up",
+             "logout" : "Logout"
+        }
+    },
+   
+    "auth": {
+        "login": {
+          "title": "Welcome Back",
+          "name": {
+            "label": "Name",
+            "placeholder": "Enter your name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter your password"
+          },
+          "submit": "Login",
+          "authPrompt": {
+            "message": "Don't have an account? ",
+            "signUpLinkText": "Sign Up"
+          }
+        },
+        "register": {
+          "title": "Register",
+          "firstName": {
+            "label": "First Name",
+            "placeholder": "Enter your First Name"
+          },
+          "lastName": {
+            "label": "Last Name",
+            "placeholder": "Enter your Last Name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter your password"
+          },
+          "confirmPassword": {
+            "label": "Confirm Password",
+            "placeholder": "Re-enter your password"
+          },
+          "submit": "Register",
+          "authPrompt": {
+            "message": "Already have an account? ",
+            "loginLinkText": "Login"
+          }
+        }
+      },
+      "validation": {
+    "firstNameRequired": "First Name is required",
+    "lastNameRequired": "Last Name is required",
+    "NameRequired": "Name is required",
+    "validEmail": "Must be a valid email",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "passwordMaxLength": "Password must be at most 40 characters",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "passwordMismatch": "Password do not match",
+    "bioAr" : "Bio in Arabic is required",
+    "bioEn" : "Bio in English is required",
+    "addressAr" : "Address in Arabic is required",
+    "addressEn" : "Address in English is required",
+    "experience" : "Experience is required",
+    "specialty" : "Specialty is required"
+  },
+  "messages": {
+    "userNotFound": "User not found",
+    "incorrectPassword": "Incorrect password",
+    "loginSuccessful": "Login successful",
+    "unexpectedError": "An unexpected error occurred",
+    "userAlreadyExists": "User already exists.",
+    "accountCreated": "Account created successfully",
+    "updateProfileSucess": "Profile updated successfull",
+    "categoryAdded": "Category added successfully",
+    "updatecategorySucess": "Category updated successfull",
+    "deleteCategorySucess": "Category deleted successfull",
+    "productAdded": "Product added successfully",
+    "updateProductSucess": "Product updated successfull",
+    "deleteProductSucess": "Product deleted successfull",
+    "updateUserSucess": "User updated successfull",
+    "deleteUserSucess": "User deleted successfull",
+    "bookingSuccess" : "Booking done successful",
+    "bookingDelete" : "Booking Canceled successful",
+    "mustLogin" : "You must login",
+    "onlyPatient" : "Only patients can book",
+    "invalidDoctor" : "Invalid doctor data"
+
+  },
+  "profile": {
+    "title": "Profile",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter your phone number",
+        "validation": {
+          "required": "Phone number is required",
+          "invalid": "Please enter a valid phone number"
+        }
+      },
+    
+      "bioEn" : {
+        "label" : "Bio in English",
+        "placeholder" : "Enter Yor Bio in English"
+      },
+      "bioAr" : {
+        "label" : "Bio in Arabic",
+        "placeholder" : "Enter Yor Bio in Arabic"
+      },
+      "addressEn" : {
+        "label" : "Address in English",
+        "placeholder" : "Address in English"
+      },
+      "addressAr" : {
+        "label" : "Address in Arabic",
+        "placeholder" : "Address in Arabic"
+      },
+      "experience" : {
+        "label" : "Experience Years",
+        "placeholder" : "Enter Your Experience Years"
+      }
+      
+    },
+    "gender" : {
+      "label" : "Gender",
+      "placeholder" : "Select Gender",
+      "options" : {
+        "male" : "Male",
+        "female" : "Female"
+      }
+    },
+    "age" : {
+      "label" : "Age",
+      "placeholder" : "Select Age"
+    }
+  },
+  "doctorDashboard" : {
+    "sidebar" : {
+       "home" : "Home",
+       "appointments" : "Appointments",
+       "profile" : "Profile",
+       "availability" : "Availability"
+    },
+    "appointmentPage" : {
+      "title" : "Appointment Management",
+      "label" : "Search by patient name",
+      "table" : {
+        "patient" : "Patient",
+         "fee" : "Fee",
+         "actions" : "Actions",
+         "date" : "Date",
+         "time" : "Time",
+         "status" : "Status"
+      }
+    }
+  },
+
+  
+
+  "save": "Save",
+  "edit": "Edit",
+  "book" : "Booking...",
+  "delete": "Delete",
+  "close" : "Close",
+  "cancel": "Cancel",
+  "submit" : "Confirm",
+   "noDoctorsFound": "No Doctors found",
+   "noBookingFound" : "No Bookings Found",
+   "noSlots" : "No available slots for this day"
+
+}

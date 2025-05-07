@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Doctor" ALTER COLUMN "price" DROP DEFAULT,
+ALTER COLUMN "specialtyId" DROP DEFAULT;
